@@ -1,0 +1,5 @@
+target_application_port = "80"
+protocol                = "HTTP"
+load-bal-type           = "application"
+target_group            = "target-group-alb"
+load_balancer_name      = "application-loadbalancer"
